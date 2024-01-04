@@ -16,6 +16,6 @@ tools:context=".PreferenceActivity">
         app:layout_constraintVertical_bias="0.472"
         android:layout_width="212dp"
         android:layout_height="219dp"
-        android:src="@drawable/bopit" />
+        android:src="@drawable/bopit_icon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
