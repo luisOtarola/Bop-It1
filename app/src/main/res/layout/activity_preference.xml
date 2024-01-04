@@ -6,4 +6,130 @@
     android:layout_height="match_parent"
     tools:context=".PreferenceActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:id="@+id/barAboutRadius"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+    android:id="@+id/title_about"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:gravity="center"
+    android:text="@string/Text_btn_preferences"
+    android:textColor="@color/black"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="@+id/barAboutRadius"
+    app:layout_constraintEnd_toEndOf="@+id/barAboutRadius"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="@+id/barAboutRadius"
+    app:layout_constraintTop_toTopOf="@+id/barAboutRadius" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="616dp"
+        android:layout_marginTop="19dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/barAboutRadius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="-2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/text_levels" />
+
+        <RadioGroup
+            android:id="@+id/difficultyRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/easyRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/text_levels_easy" />
+
+            <RadioButton
+                android:id="@+id/mediumRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_levels_medium" />
+
+            <RadioButton
+                android:id="@+id/hardRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_levels_hard" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/text_sound" />
+
+        <RadioGroup
+            android:id="@+id/SoundRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/silenceRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/text_sound_silence" />
+
+            <RadioButton
+                android:id="@+id/highRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_sound_high" />
+
+            <RadioButton
+                android:id="@+id/explosionRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_sound_explosion" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/soundCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_soundEfecct" />
+
+        <Spinner
+            android:id="@+id/musicSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+            <!--android:prompt="selecciona una cancion"-->
+            <!-- android:entries="@array/music_options"-->
+
+     </LinearLayout>
+
+
+ </androidx.constraintlayout.widget.ConstraintLayout>

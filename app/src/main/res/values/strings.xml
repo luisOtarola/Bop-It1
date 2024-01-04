@@ -4,5 +4,17 @@
     <string name="Text_btn_preferences">Preferencias</string>
     <string name="Text_btn_about">Acerca</string>
     <string name="Text_about">Desarrollado por el estudiante Luis Otárola
-        de ingenieria en desarrollo de videojuegos y realidad virtual</string>
+        de Ingenieria en Desarrollo de Videojuegos y Realidad Virtual</string>
+
+    <string name="text_levels">Nivel de dificultad</string>
+    <string name="text_levels_easy">Facíl</string>
+    <string name="text_levels_medium">Medio</string>
+    <string name="text_levels_hard">Difícil</string>
+
+    <string name="text_sound">Sonido</string>
+    <string name="text_sound_silence">Silencio</string>
+    <string name="text_sound_high">Alto</string>
+    <string name="text_sound_explosion">Explosión</string>
+
+    <string name="text_soundEfecct">Efectos de sonido</string>
 </resources>

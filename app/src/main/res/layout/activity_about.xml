@@ -10,8 +10,8 @@
         android:id="@+id/barAboutRadius"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginTop="10dp"
         android:background="@color/yellow"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,9 +27,9 @@
         android:layout_height="70dp"
         android:gravity="center"
         android:text="@string/Text_btn_about"
+        android:textColor="@color/black"
+        android:textSize="30sp"
         android:textStyle="bold"
-        android:textColor="@color/white"
-        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="@+id/barAboutRadius"
         app:layout_constraintEnd_toEndOf="@+id/barAboutRadius"
         app:layout_constraintHorizontal_bias="0.0"
@@ -38,9 +38,10 @@
 
     <View
         android:id="@+id/textViewAbout"
-        android:layout_width="320dp"
+        android:layout_width="match_parent"
         android:layout_height="385dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:background="@color/yellow"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.555"
@@ -49,19 +50,22 @@
         app:layout_constraintTop_toBottomOf="@+id/barAboutRadius" />
 
     <TextView
-        android:layout_width="301dp"
-        android:layout_height="362dp"
+        android:layout_width="match_parent"
+        android:layout_height="385dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:gravity="center"
         android:text="@string/Text_about"
         android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@id/textViewAbout"
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintLeft_toLeftOf="@id/textViewAbout"
         app:layout_constraintRight_toRightOf="@+id/textViewAbout"
         app:layout_constraintTop_toTopOf="@id/textViewAbout"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextSizeCheck,TextContrastCheck" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
