@@ -19,16 +19,30 @@
         app:layout_constraintVertical_bias="0.21" />
 
     <Button
+        android:id="@+id/btn_play"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:text="@string/Text_btn_play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.144" />
+
+    <Button
         android:id="@+id/btn_preferences"
         android:layout_width="190dp"
         android:layout_height="60dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="216dp"
         android:text="@string/Text_btn_preferences"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.334" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_play"
+        app:layout_constraintVertical_bias="0.009" />
 
     <Button
         android:id="@+id/btn_about"
@@ -37,8 +51,9 @@
         android:text="@string/Text_btn_about"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_preferences"
-        app:layout_constraintVertical_bias="0.113" />
+        app:layout_constraintVertical_bias="0.128" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

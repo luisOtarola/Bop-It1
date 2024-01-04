@@ -9,13 +9,14 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var aboutButton: Button
     private lateinit var preferencesButton: Button
-
+    private lateinit var playButton: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         aboutButton = findViewById(R.id.btn_about) as Button
         preferencesButton = findViewById(R.id.btn_preferences) as Button
+        playButton = findViewById(R.id.btn_play) as Button
 
         aboutButton.setOnClickListener {
             val aboutIntent = Intent(this, AboutActivity::class.java)
@@ -24,6 +25,11 @@ class MainActivity : AppCompatActivity() {
 
         preferencesButton.setOnClickListener {
             val preferencesIntent = Intent(this, PreferenceActivity::class.java)
+            startActivity(preferencesIntent)
+        }
+
+        playButton.setOnClickListener {
+            val preferencesIntent = Intent(this, GameActivity::class.java)
             startActivity(preferencesIntent)
         }
     }
