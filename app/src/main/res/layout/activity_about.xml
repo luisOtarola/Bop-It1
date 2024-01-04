@@ -6,4 +6,64 @@
     android:layout_height="match_parent"
     tools:context=".AboutActivity">
 
+    <View
+        android:id="@+id/barAboutRadius"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/title_about"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="@string/Text_btn_about"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/barAboutRadius"
+        app:layout_constraintEnd_toEndOf="@+id/barAboutRadius"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/barAboutRadius"
+        app:layout_constraintTop_toTopOf="@+id/barAboutRadius" />
+
+    <View
+        android:id="@+id/textViewAbout"
+        android:layout_width="320dp"
+        android:layout_height="385dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barAboutRadius" />
+
+    <TextView
+        android:layout_width="301dp"
+        android:layout_height="362dp"
+        android:gravity="center"
+        android:text="@string/Text_about"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/textViewAbout"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintLeft_toLeftOf="@id/textViewAbout"
+        app:layout_constraintRight_toRightOf="@+id/textViewAbout"
+        app:layout_constraintTop_toTopOf="@id/textViewAbout"
+        app:layout_constraintVertical_bias="0.0" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
