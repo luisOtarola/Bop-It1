@@ -16,6 +16,12 @@
     <string name="text_sound_high">Alto</string>
     <string name="text_sound_explosion">Explosión</string>
 
+    <string name="text_game_score">Score: 0</string>
+
+
+
+    <string name="text_game_instruction">Intrucciones</string>
+
     <string name="text_soundEfecct">Efectos de sonido</string>
     <string name="title_activity_settings">SettingsActivity</string>
 
