@@ -24,13 +24,14 @@ class MainActivity : AppCompatActivity() {
         }
 
         preferencesButton.setOnClickListener {
-            val preferencesIntent = Intent(this, PreferenceActivity::class.java)
-            startActivity(preferencesIntent)
+            val settingIntent = Intent(this, SettingsActivity::class.java)
+            startActivity(settingIntent)
         }
 
         playButton.setOnClickListener {
             val preferencesIntent = Intent(this, GameActivity::class.java)
             startActivity(preferencesIntent)
         }
+
     }
 }
