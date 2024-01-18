@@ -32,12 +32,12 @@ aumentan en velocidad y complejidad, desafiando la coordinación y los reflejos 
    Implementar archivos XML de recursos (colors.xml, values.xml, string.xml, etc.) y recursos multimedia relacionados con el contexto.
    
 
-4. **Detección y Trabajo con el Acelerómetro **
+4. **Detección y Trabajo con el Acelerómetro**
    - Implementación de la detección de agitación constante del dispositivo.
    - Entrega de permisos necesarios para el uso del sensor.
    - Utilización de `SensorEventListener` para la detección de eventos.
 
-5. **Detección de Acción de Agitar y Definición de Umbrales **
+5. **Detección de Acción de Agitar y Definición de Umbrales**
    - Generación aleatoria de instrucciones para el usuario.
    - Definición de umbrales para detectar la acción de agitar.
    - Manejo de eventos, incremento de puntaje o indicación de fin de juego. 
@@ -55,11 +55,11 @@ aumentan en velocidad y complejidad, desafiando la coordinación y los reflejos 
    - Algoritmo para generar instrucciones aleatorias.
    - Algoritmo para cambiar periódicamente las instrucciones.
 
-10. **Manejo de Estados de Activity y Listeners **
+10. **Manejo de Estados de Activity y Listeners**
    - Vinculación y desvinculación de listeners en las Activity correspondientes.
 
 
-11. **Generación de APK y Compartir la Aplicación **
+11. **Generación de APK y Compartir la Aplicación**
     - Creación de un APK para compartir la aplicación.
 
 ## Instalación y Ejecución
@@ -70,17 +70,20 @@ aumentan en velocidad y complejidad, desafiando la coordinación y los reflejos 
 4. ¡Disfrute del juego!
 
 ---------  Primera entrega  ------------
+
 Link video: https://youtu.be/P2-HaMDfIJY
 
 Link apk: https://drive.google.com/file/d/1bdVEomlD2VjNIGFbMXKoBqNHZwwp25TW/view?usp=sharing
 
 
 ---------  Segunda entrega  ------------
+
 Link video: https://youtu.be/_fCK78o2omY
 
 Link apk: https://drive.google.com/file/d/1J16mL0SLL-IAX6wuo_Q0gjjroCpFvuK8/view?usp=sharing
 
 ---------  Tercera entrega  ------------
+
 Link video: https://youtu.be/o2IFnP7KMA4
 
 Link apk: https://drive.google.com/file/d/1yGaHRzadO9flnZRt1c8W3LrXVpDSY4_X/view?usp=sharing
