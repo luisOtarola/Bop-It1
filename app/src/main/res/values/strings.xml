@@ -28,7 +28,7 @@
     <string name="title_activity_settings">SettingsActivity</string>
 
     <!-- Preference Titles -->
-    <string name="messages_header">Información</string>
+    <string name="messages_header">Ajustes</string>
     <string name="sync_header">Sync</string>
 
     <!-- Messages Preferences -->

@@ -23,7 +23,7 @@ class SettingsActivity : AppCompatActivity() {
         override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
             setPreferencesFromResource(R.xml.root_preferences, rootKey)
 
-            /*
+
             // Configura los listeners para las preferencias
             findPreference<EditTextPreference>("shake_threshold")?.setOnPreferenceChangeListener { _, newValue ->
                 // Actualiza shakeThreshold cuando cambia la preferencia
@@ -35,7 +35,12 @@ class SettingsActivity : AppCompatActivity() {
                 // Actualiza rotationThreshold cuando cambia la preferencia
                 (activity as? GameActivity)?.rotationThreshold = newValue.toString().toFloat()
                 true
-            }*/
+            }
+            findPreference<EditTextPreference>("difficulty_Settings")?.setOnPreferenceChangeListener { _, newValue ->
+                // Actualiza difficultySettings cuando cambia la preferencia
+                (activity as? GameActivity)?.difficultySettings = newValue.toString().toInt()
+                true
+            }
         }
     }
 }

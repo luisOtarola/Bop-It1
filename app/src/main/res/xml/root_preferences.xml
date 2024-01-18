@@ -23,6 +23,13 @@
             app:useSimpleSummaryProvider="true" />
 
         <EditTextPreference
+            app:key="difficulty_Settings"
+            app:title="Nivel de dificultad"
+            app:summary="Ajustar la velocidad según aciertos"
+            app:defaultValue="5"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
             app:key="shake_threshold"
             app:title="Umbral de agitación"
             app:summary="Ajustar el umbral de vibración (entre 0 y 8 recomendado)"
