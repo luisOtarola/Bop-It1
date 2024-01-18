@@ -1,6 +1,8 @@
 # Bop it
 
-Descripción breve del juego y su propósito.
+Este proyecto busca recrear el verdadero juego "Bop It". Este juego de Hasbro es un dispositivo electrónico que emite instrucciones verbales y auditivas 
+para que los jugadores realicen acciones específicas, como golpear, girar o jalar en el momento adecuado. Las instrucciones
+aumentan en velocidad y complejidad, desafiando la coordinación y los reflejos de los jugadores.
 
 ## Funcionalidades Implementadas
 
@@ -81,7 +83,7 @@ Link apk: https://drive.google.com/file/d/1J16mL0SLL-IAX6wuo_Q0gjjroCpFvuK8/view
 ---------  Tercera entrega  ------------
 Link video: https://youtu.be/o2IFnP7KMA4
 
-Link apk: 
+Link apk: https://drive.google.com/file/d/1yGaHRzadO9flnZRt1c8W3LrXVpDSY4_X/view?usp=sharing
 
 Desarrollado por Luis Otárola
 
