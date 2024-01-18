@@ -11,4 +11,14 @@
         <item>reply</item>
         <item>reply_all</item>
     </string-array>
+
+    <string-array name="shake_detection_entries">
+        <item>Acelerometro</item>
+        <item>Deslizar</item>
+    </string-array>
+
+    <string-array name="shake_detection_values">
+        <item>Acelerometro</item>
+        <item>Deslizar</item>
+    </string-array>
 </resources>

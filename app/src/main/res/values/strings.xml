@@ -17,6 +17,8 @@
     <string name="text_sound_explosion">Explosión</string>
 
     <string name="text_game_score">Score: 0</string>
+    <string name="text_game_start">Iniciar juego</string>
+
 
 
 
@@ -26,11 +28,11 @@
     <string name="title_activity_settings">SettingsActivity</string>
 
     <!-- Preference Titles -->
-    <string name="messages_header">Messages</string>
+    <string name="messages_header">Información</string>
     <string name="sync_header">Sync</string>
 
     <!-- Messages Preferences -->
-    <string name="signature_title">Your signature</string>
+    <string name="signature_title">Usuario</string>
     <string name="reply_title">Default reply action</string>
 
     <!-- Sync Preferences -->

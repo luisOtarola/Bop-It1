@@ -2,6 +2,7 @@ package com.example.bop_it1
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.preference.EditTextPreference
 import androidx.preference.PreferenceFragmentCompat
 
 class SettingsActivity : AppCompatActivity() {
@@ -21,6 +22,20 @@ class SettingsActivity : AppCompatActivity() {
     class SettingsFragment : PreferenceFragmentCompat() {
         override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
             setPreferencesFromResource(R.xml.root_preferences, rootKey)
+
+            /*
+            // Configura los listeners para las preferencias
+            findPreference<EditTextPreference>("shake_threshold")?.setOnPreferenceChangeListener { _, newValue ->
+                // Actualiza shakeThreshold cuando cambia la preferencia
+                (activity as? GameActivity)?.shakeThreshold = newValue.toString().toFloat()
+                true
+            }
+
+            findPreference<EditTextPreference>("rotation_threshold")?.setOnPreferenceChangeListener { _, newValue ->
+                // Actualiza rotationThreshold cuando cambia la preferencia
+                (activity as? GameActivity)?.rotationThreshold = newValue.toString().toFloat()
+                true
+            }*/
         }
     }
 }

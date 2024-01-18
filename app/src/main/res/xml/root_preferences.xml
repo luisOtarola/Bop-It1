@@ -6,20 +6,34 @@
             app:key="signature"
             app:title="@string/signature_title"
             app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="max_score"
+            app:title="Maximo puntaje "
+            app:summary="Set the maximum score"
+            app:defaultValue="100"
+            app:useSimpleSummaryProvider="true" />
 
         <ListPreference
-            app:defaultValue="reply"
-            app:entries="@array/reply_entries"
-            app:entryValues="@array/reply_values"
-            app:key="reply"
-            app:title="@string/reply_title"
+            app:key="shake_detection_method"
+            app:title="Modo de detección de acción 'Estira'"
+            app:summary="Elige un modo para detectar la acción 'Shake It'"
+            app:entries="@array/shake_detection_entries"
+            app:entryValues="@array/shake_detection_values"
+            app:defaultValue="Acelerometro"
             app:useSimpleSummaryProvider="true" />
-        <ListPreference
-            app:defaultValue="reply"
-            app:entries="@array/reply_entries"
-            app:entryValues="@array/reply_values"
-            app:key="reply"
-            app:title="hola"
+
+        <EditTextPreference
+            app:key="shake_threshold"
+            app:title="Umbral de agitación"
+            app:summary="Ajustar el umbral de vibración (entre 0 y 8 recomendado)"
+            app:defaultValue="2.0"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="rotation_threshold"
+            app:title="Umbral de rotación"
+            app:summary="Ajustar el umbral de rotación (entre 0 y 3 recomendado)"
+            app:defaultValue="2.0"
             app:useSimpleSummaryProvider="true" />
 
     </PreferenceCategory>
